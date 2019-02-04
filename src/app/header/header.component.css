@@ -1,0 +1,82 @@
+
+
+
+#main-nav{
+    /* background-color:#EEEEEE; */
+    /* position:absolute; */
+    /* z-index:100; */
+    /* position: a; */
+    }
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    /* background: white; */
+    padding: 10px;
+  }
+  .banner{ 
+    /* height:auto; 
+    background-size:cover;
+    width:auto; */
+	background-image:url('/assets/image_header.png');
+    color: #fff;
+    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
+    background-attachment: scroll; */
+    /* background-size: 100%; */
+    /* height:100%; */
+    height:25rem;
+    /* max-height:27em; */
+    width: 100%;
+    background-size:100% 100%;
+    /* background-attachment: fixed; */
+    background-position: center top;
+   
+    /* background-size: 100% 100%; */
+    /* height: 400px; */
+}
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+    color:white;
+}   
+a{color: white}
+
+.round{
+	border-radius: 50%;
+    width: 50px;
+    height: 50px;
+	background-size: cover;
+	background-color: black;
+    background-position: center;
+}
+.navbar-nav .nav-link {
+    padding-right: 41px;
+    padding-left: 0;
+}
+
+
+h1 {
+    /* Extra small devices (phones, less than 768px) */
+    font-size: 45px;
+  
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+      font-size: 12px;
+    }
+  
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      font-size: 16px;
+    }
+  
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      font-size: 18px;
+    }
+  }
+
+  .navbar-nav[_ngcontent-c2] .nav-link[_ngcontent-c2] {
+    padding-right: 14px;
+    padding-left: 18px;
+}
